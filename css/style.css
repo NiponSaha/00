@@ -10,20 +10,21 @@ header {
     border-bottom: 3px solid rgb(216, 216, 216);
     padding: 5px 0;
 }
+
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .logo {
-    width: 6%;
+    width: 7%;
     float: left;
 }
 
 .logo img {
     width: 100%;
-    padding: 7px 0 4px;
+    padding: 8px 0 4px;
 }
 
 .menu {
@@ -56,7 +57,6 @@ header {
 
 header:hover {
     border-bottom: 3px solid #008aff;
-    padding: 5px 0;
 }
 
 .menu ul li:last-child a {
@@ -66,18 +66,16 @@ header:hover {
 
 /* Banner CSS Start */
 .banner {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .b_container {
     width: 55%;
-    /* border: 3px solid tomato; */
     margin: 0 auto;
 }
 
 .b_cntainr_txt {
     width: 80%;
-    /* border: 3px solid purple; */
     margin: 0 auto;
     text-align: center;
 }
@@ -95,7 +93,7 @@ header:hover {
     font-size: 60px;
     font-weight: 600;
     color: #008aff;
-    margin: 15px 0;
+    margin: 16px 0;
 }
 
 .b_cntainr_txt p {
@@ -103,6 +101,7 @@ header:hover {
     font-size: 16px;
     font-weight: 400;
     color: #a0a0a0;
+    margin: 0 0 16px;
     line-height: 1.5;
 }
 
@@ -118,8 +117,7 @@ header:hover {
 
 /* Success CSS Start */
 .success {
-	margin-top: 60px;
-	margin-bottom: 60px;
+    padding: 60px 0;
 }
 
 .s_container {
@@ -133,6 +131,7 @@ header:hover {
     font-family: Helvetica, sans-serif;
     float: left;
     text-align: right;
+    margin-left: 2%;
 }
 
 .s_containr_left h2 {
@@ -150,8 +149,9 @@ header:hover {
 }
 
 .s_containr_right {
-    width: 50%;
-    float: right;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
 }
 
 .s_containr_right h3 {
@@ -164,23 +164,21 @@ header:hover {
 /* Success CSS End */
 
 /* Creativity CSS Start */
-
 .crtiv_cntainr {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .crtiv_f_containr {
     font-family: Helvetica, sans-serif;
     overflow: hidden;
-    
 }
+
 .crtiv1 {
-    width: 28%;
+    width: 27%;
     background-color: #fdebed;
     padding: 40px 25px;
     float: left;
-    
 }
 
 .crtiv1-img {
@@ -198,7 +196,7 @@ header:hover {
 }
 
 .crtiv1-txt p {
-    width: 85%;
+    width: 88%;
     font-size: 16px;
     font-weight: 400;
     color: #445e94;
@@ -207,43 +205,43 @@ header:hover {
 }
 
 .crtiv-green {
-    width: 28%;
     background-color: #ebf9f4;
-    padding: 40px 25px;
 }
 
 .crtiv2 {
 	float: left;
-	margin: 0 46px;
+	margin: 0 51px;
 }
 
 .crtiv-ylw {
-    width: 28%;
     background-color: #f7e8f7;
-    padding: 40px 25px;
 }
 
 .crtiv3 {
-    float: right;
+    float: left;
 }
 /* Creativity CSS End */
 
 /* Footer CSS Start */
+.footer {
+    padding-top: 70px;
+}
 .f_container {
     background-color: #008aff;
     text-align: center;
 }
+
 .f_container p {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #fff;
     padding: 30px 0;
-    margin: 70px 0 0;
+    margin: 0; 
 }
 
 .f_container span {
     font-weight: 600;
     letter-spacing: 3px;
 }
-/* Foother CSS End */
+/* Footer CSS End */
